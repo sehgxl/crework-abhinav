@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+  background-color: #E8E8E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section{
+  background-color: white;
+  padding: 1em 1.5em;
+  width: max-content;
+  border-radius: 10px;
+}
+.primaryHeading{
+  align-self: flex-start;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2em;
+}
+.stayLeft{
+  align-self: flex-start;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.input-style{
+  padding: 0.5em 0.8em;
+  border: 1px solid rgb(192, 190, 190);
+  outline: none;
+  border-radius: 6px;
+  min-width: 300px;
+}
+.input-style:focus{
+  border: 1px solid #0085FF;
+}
+
+.normalFontSize{
+  font-size: 1rem;
+}
+
+.btn{
+  background-color: #0085FF ;
+  color: white;
+  width: 100%;
+  padding: 0.5em 0.8em;
+  border: 1px solid transparent;
+  border-radius: 6px ;
+  font-weight: bold;
+}
+.btn:hover{
+  background-color: white ;
+  color: #0085FF;
+  border: 1px solid #0085FF;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #0085FF;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.lightGray{
+  color : rgb(109, 106, 106);
+}
+
+.signUpContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.GoogleLoginBtn{
+  width: 100%;
+  padding: 0.5em 0.8em;
+  border-radius: 6px;
+  border: 1px solid rgb(192, 190, 190);
+  font-weight: bold;
+  background-color: white;
+  color: grey;
+  cursor: pointer;
+}
+
+.GoogleLoginBtn:hover{
+  border: 1px solid #0085FF;
+  background-color: white;
+  color: #0085FF;
+}
